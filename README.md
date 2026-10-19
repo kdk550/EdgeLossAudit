@@ -62,4 +62,4 @@ This is a reproduction subset of EdgeLossAudit. It does not download raw databas
 
 ## Citation and rights
 
-Author metadata, the publication citation, software license and public repository URL remain to be supplied. Third-party data keep their source attribution and applicable terms; see the Data sources table above. No new license is assigned to third-party data by this snapshot.
+Author metadata and the publication citation remain to be supplied. The reproduction code in this repository is released under the [MIT License](LICENSE). Third-party data and method code are not covered by that license and keep their own terms and attribution requirements; see the Data sources and Method code tables above. No new license is assigned to third-party data by this repository.
