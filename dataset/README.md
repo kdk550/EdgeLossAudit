@@ -1,4 +1,4 @@
-# Core evidence for EdgeLossBench / EdgeLossAudit
+# EdgeLossBench / EdgeLossAudit: data layout
 
 Release identifier: `core-evidence-20261019`. This file describes the data layout expected by `edge_loss_audit`. The data files are **not redistributed**: only this documentation and the data dictionary are kept in the repository, and the cohort directories are obtained from the upstream sources below. This is a selected evidence release, distinct from the earlier six-track PPI-RewireBench v0.2 dataset. It includes no manuscript, rendered figures, model weights or embedding caches.
 
