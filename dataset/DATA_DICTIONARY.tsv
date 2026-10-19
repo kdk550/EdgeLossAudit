@@ -1,0 +1,174 @@
+field	definition
+abs_site_delta_plddt	Absolute WT-mutant mutation-site pLDDT difference.
+abs_window_delta_plddt	Absolute WT-mutant local-window pLDDT difference.
+affected_id	Affected-protein identifier in the IGVF proxy analysis.
+affected_identity30_cluster	Affected-protein cluster representative at identity30.
+affected_protein	Assay-ORF/affected-protein identifier from the source adapter.
+analysis_target	Binary label under the named IntAct scenario.
+ap_delta_over_null	Average precision minus positive prevalence.
+ap_delta_vs_masked	Average precision minus masked-marginal average precision.
+assay_type	Source assay type.
+auroc	Pooled area under the ROC curve on the specified cohort.
+average_precision	Pooled average precision on the specified cohort.
+benchmark_id	Benchmark resource identifier.
+benchmark_version	Original adapter release version.
+blosum62_severity	Loss-oriented BLOSUM62 substitution score.
+brier	Brier score for probability predictions.
+charge_change	Absolute amino-acid charge-feature change.
+chemical_group_change	Mutation amino-acid chemical-group-change baseline.
+ci_high	Upper 95% mutation-cluster bootstrap percentile.
+ci_low	Lower 95% mutation-cluster bootstrap percentile.
+claim_scope	Declared interpretation scope of the resource.
+comparison	Ordered method contrast; delta is first method minus second.
+context	Assay dataset/version context.
+coverage_fraction	Fraction of the declared cohort scored by this comparator.
+delta	Paired method difference for the specified metric.
+display_method	Human-readable method name.
+dscript_delta_loss_score	WT score minus mutant score; greater means greater predicted loss.
+dscript_mutant_score	Frozen D-SCRIPT predicted mutant-partner interaction score.
+dscript_wt_score	Frozen D-SCRIPT predicted WT-partner interaction score.
+ece_10_equal_frequency	Expected calibration error using ten equal-frequency bins.
+effect_direction	Direction of the assay effect.
+effect_scale	Native IGVF quantitative log2 fold-change.
+esignet	Within-study reference discriminator retrained for strict edge-loss labels and splits.
+estimand	Biological target defined by the source adapter.
+evidence_track	Assay-specific evidence-track category.
+exclusion_reason	Source exclusion reason if any; empty when not supplied.
+family	Comparator information/model family.
+fold	Held-out component or identity-closed fold, according to file.
+grantham_distance	Grantham amino-acid substitution distance.
+group	Conditional stratum key, mutation or mutation|PubMed.
+grouping	mutation or mutation_pubmed conditional stratum rule.
+groups	Number of biological mutation resampling clusters.
+hgb_delta	Out-of-fold histogram gradient boosting mutation embedding-delta score.
+hydropathy_change	Absolute amino-acid hydropathy change.
+identity30_fold	Held-out affected-protein identity30 fold.
+impact_annotation	Original curated interaction-impact ontology annotation.
+interaction_ac	IntAct interaction accession(s).
+interactor	Interaction-partner identifier in the primary benchmark.
+interactor_symbol	Partner gene symbol.
+known_complex_candidate	Study shared-PDB candidate support flag, not a mechanistic proof.
+label	Binary reporting-view label defined by label_definition.
+label_definition	Explicit label threshold/semantics.
+log2fc	Native semi-qY2H interaction-score log2 fold-change.
+logp_mutant	ESM2 masked-context log probability of mutant residue.
+logp_wt	ESM2 masked-context log probability of wild-type residue.
+lost_target	Binary WT-existing edge-loss label in the structure mapping.
+macro_auroc	Within-stratum AUROC, averaged over seeds in group_statistics.
+macro_within_mutation_auroc	Equal-mutation conditional AUROC.
+masked_calibrated	Fold-calibrated masked-marginal baseline score.
+masked_marginal	Mutation-only ESM2 masked-marginal loss-oriented score.
+masked_marginal_loss_score	Loss-oriented mutation-only ESM2 log-probability difference.
+matched_strata	Number of mixed-outcome conditional strata.
+method	Comparator/model identifier.
+metric	Statistical endpoint being compared.
+mixed_outcome_mutations	Number of mutations with both positive and negative partner outcomes.
+multi_partner_status	Source-adapter multi-partner/mixed-outcome status.
+mut_aa	Mutant amino acid.
+mutant	Mutant amino acid.
+mutant_label	Observed interaction state for the mutant: 1 present, 0 absent.
+mutant_residue	Mutant amino acid.
+mutated_protein	Affected-protein identifier, usually UniProt in independent tracks.
+mutation	Mutation identifier; format depends on the evidence track.
+mutation_fold	Held-out mutation-disjoint fold.
+mutation_id	Mutation identifier in the source schema.
+mutation_logreg_classical	Classical mutation-feature logistic regression out-of-fold score.
+mutation_logreg_plus_masked	Classical features plus masked score logistic regression out-of-fold score.
+mutation_only_linear	Frozen-embedding mutation-only linear probe score.
+mutation_rf_classical	Classical mutation-feature random forest out-of-fold score.
+mutation_score	Mutation-only score used as a feature in the IGVF representation probe.
+mute_idx	Original mutation coordinate/token from primary inputs; conventions are source-dependent.
+n	Number of observations.
+n_shared_pdb	Number of shared-PDB candidate entries.
+p_bh_all	Benjamini-Hochberg adjusted P over all 48 tests.
+p_bh_secondary	Benjamini-Hochberg adjusted P over the 47 secondary tests; missing for primary.
+p_holm_all	Holm adjusted P over all 48 tests.
+pair_aware_linear	Frozen-embedding pair-aware linear probe score.
+pair_aware_oof_score	Out-of-fold IGVF pair-aware proxy score.
+pair_aware_probe	Out-of-fold pair-aware probe score; identity file uses logistic delta-site probe.
+pair_aware_probe_partner_shuffled	Primary partner-shuffled probe control score.
+pair_correct	Correctly ranked positive-negative pair count, ties count 0.5; averaged over seeds in group_statistics.
+pairs	Number of positive-negative pairs in a stratum.
+partner	Partner protein identifier.
+partner_accession	Partner UniProt accession.
+partner_gene_id	Partner gene identifier.
+partner_id	Partner identifier in the IGVF proxy analysis.
+partner_identity30_cluster	Partner cluster representative at identity30; partner folds are not isolated.
+partner_n_pdb	PDB-entry count mapped to the partner.
+partner_protein	Assay-ORF/partner identifier from the source adapter.
+partner_shuffled_linear	Partner-shuffled linear probe control score.
+partner_shuffled_oof_mean	Mean IGVF partner-shuffled control score; not the 100 training-label permutation metrics.
+permutation_p	Two-sided mutation-cluster sign-permutation P value.
+plddt_fusion_masked_abs_site	Masked-marginal plus absolute site-pLDDT fusion score.
+pooled_ap	Pooled average precision for the specified permutation/cohort.
+pooled_auroc	Pooled AUROC for the specified permutation/cohort.
+position	Mutation position as represented in the source; use source coordinate/QC metadata.
+positive_negative_pairs	Positive-negative pair denominator.
+positive_negative_partner_pairs	Number of positive-negative partner pairs.
+positive_support	Number of positive observations.
+positives	Number of positive observations.
+prevalence	Positive-observation fraction; null AP.
+prevalence_null_score	Constant prevalence null score.
+primary_endpoint	Boolean marking the single designated primary comparison.
+probability_gt_zero	Fraction of bootstrap differences greater than zero.
+proline_glycine_cysteine_change	Indicator involving a proline/glycine/cysteine class change.
+provenance_identifier	Original source accession.
+publication_id	Source publication or dataset identifier.
+pubmed_id	Source publication identifier; used for publication-matched strata.
+resampling_cluster	Biological bootstrap/sign-permutation cluster, always mutation.
+row_status	Source release inclusion status.
+scenario	IntAct label-mapping scenario defined in inference_protocol.json.
+seed	Random-number seed identifier; numeric values are not data-collection dates.
+seed_pair_delta_max	Maximum paired pair-accuracy difference over seeds.
+seed_pair_delta_mean	Mean paired pair-accuracy difference over seeds.
+seed_pair_delta_min	Minimum paired pair-accuracy difference over seeds.
+seed_pair_delta_sd	Sample SD of the paired pair-accuracy differences over seeds.
+seeds	Number of stochastic model fits.
+sequence_status	Study sequence-mapping and wild-type residue validation status.
+sequence_valid	Boolean sequence QC in experiment tables; the v0.2 IGVF adapter instead records a text status and does not certify ORF sequences.
+shared_pdb	Shared-PDB candidate identifiers.
+source_record_id	Original record identifier.
+split	Supervised partitioning rule.
+structure_support	Structure-support assessment status.
+substitution	Source substitution token; primary germline tokens can include position and >.
+subtype	Comparator family subtype.
+symbol	Affected-protein gene symbol.
+target	Binary outcome: primary edge loss; IntAct decrease/disruption; IGVF log2fc <= -1. See track README.
+target_complete_loss	BRCA1-BRCT normalized Y2H score <= -5.
+target_neg1_sensitivity	BRCA1-BRCT normalized Y2H score <= -1; sensitivity endpoint.
+volume_change	Absolute amino-acid volume-feature change.
+wildtype	Wild-type affected-protein identifier in the primary benchmark.
+wildtype_id	Wild-type affected-protein identifier in the structure mapping.
+within_macro_auroc	Equal-mutation conditional AUROC.
+within_micro_pair_accuracy	Correctly ranked pairs divided by all positive-negative pairs; ties 0.5.
+within_mrr	Mean positive reciprocal rank under the original primary audit convention.
+within_mutation_groups	Number of mixed-outcome strata.
+within_mutation_macro_auroc	Equal-mutation conditional AUROC.
+within_mutation_macro_ci_high	Upper conditional macro-AUROC bootstrap percentile.
+within_mutation_macro_ci_low	Lower conditional macro-AUROC bootstrap percentile.
+within_mutation_pair_accuracy	Pooled positive-negative partner-pair accuracy; ties 0.5.
+within_mutation_pair_ci_high	Upper conditional pair-accuracy bootstrap percentile.
+within_mutation_pair_ci_low	Lower conditional pair-accuracy bootstrap percentile.
+within_mutation_positive_negative_pairs	Positive-negative pair denominator.
+within_mutation_pubmed_groups	Publication-matched. Number of mixed-outcome strata.
+within_mutation_pubmed_macro_auroc	Publication-matched. Equal-mutation conditional AUROC.
+within_mutation_pubmed_macro_ci_high	Publication-matched. Upper conditional macro-AUROC bootstrap percentile.
+within_mutation_pubmed_macro_ci_low	Publication-matched. Lower conditional macro-AUROC bootstrap percentile.
+within_mutation_pubmed_pair_accuracy	Publication-matched. Pooled positive-negative partner-pair accuracy; ties 0.5.
+within_mutation_pubmed_pair_ci_high	Publication-matched. Upper conditional pair-accuracy bootstrap percentile.
+within_mutation_pubmed_pair_ci_low	Publication-matched. Lower conditional pair-accuracy bootstrap percentile.
+within_mutation_pubmed_positive_negative_pairs	Publication-matched. Positive-negative pair denominator.
+within_mutation_pubmed_rows	Publication-matched. Observations in mixed-outcome strata.
+within_mutation_rows	Observations in mixed-outcome strata.
+within_n_mutations	Number of mixed-outcome mutations.
+within_n_pairs	Positive-negative partner-pair denominator.
+wt	Wild-type amino acid.
+wt_aa	Wild-type amino acid.
+wt_accession	Affected UniProt accession.
+wt_gene_id	Affected-protein gene identifier.
+wt_label	Observed interaction state for the wild type: 1 present, 0 absent.
+wt_n_pdb	PDB-entry count mapped to the affected protein.
+wt_residue	Wild-type amino acid.
+y2h_normalized_score	Native BRCA1-BRCT normalized Y2H depletion score.
+identity30_clusters.tsv:column1	Headerless MMseqs2 cluster representative identifier.
+identity30_clusters.tsv:column2	Headerless MMseqs2 member sequence identifier.

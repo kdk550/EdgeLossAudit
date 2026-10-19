@@ -1,0 +1,31 @@
+path	bytes	rows
+DATA_DICTIONARY.tsv	11929	173
+PROVENANCE.tsv	26398	102
+README.md	7365	
+brca1_brct/cohort_protocol.json	675	
+brca1_brct/mutation_scores.csv.gz	180589	8128
+brca1_brct/pair_reference.json	3546	
+brca1_brct/pair_scores.csv.gz	13065	542
+igvf/assay_observations.csv.gz	45582	1839
+igvf/mutation_scores.csv.gz	48500	1833
+igvf/pair_scores.csv.gz	68057	1827
+igvf/shuffle_metrics.csv	8953	100
+igvf/shuffle_reference.json	1411	
+intact_mp/cohort_reference.json	1094	
+intact_mp/group_statistics.csv.gz	174888	14451
+intact_mp/identity30_clusters.tsv	80883	5623
+intact_mp/identity_protocol.json	2360	
+intact_mp/inference_protocol.json	2159	
+intact_mp/main_mixed_seed_predictions.csv.gz	1916622	71380
+intact_mp/observations.csv.gz	432023	36158
+intact_mp/reported_inference.csv	16066	48
+intact_mp/seed_metrics.csv	80798	320
+primary/direction_reference.json	1484	
+primary/homology_proxy_predictions.csv.gz	34687	1533
+primary/observations.csv.gz	83114	1533
+primary/raw_observations.csv.gz	16510	1633
+primary/reported_comparators.csv	3624	17
+primary/statistical_reference.json	5694	
+primary/uniref50_identity_audit.json	1422	
+primary/uniref50_identity_predictions.csv.gz	29108	1533
+structure/coverage.csv.gz	15904	1533

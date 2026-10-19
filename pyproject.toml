@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge-loss-audit-core"
+version = "0.1.0"
+description = "Compact reproduction of the core EdgeLossBench and EdgeLossAudit evidence"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scikit-learn>=1.2", "threadpoolctl>=3"]
+
+[tool.setuptools.packages.find]
+include = ["edge_loss_audit*"]

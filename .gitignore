@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+results/
+.DS_Store
+# Third-party exports are not redistributed; obtain them from the sources listed in README.md.
+dataset/
